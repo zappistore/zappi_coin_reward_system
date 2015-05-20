@@ -5,6 +5,7 @@ ZappiStore is creating a RPG game and we are trying to implement the rewarding l
 
 
 # Instructions
+
 The class `CalculateReward#execute` is used at the end of the level.
 
 Each player receives a different number of coins, based on his role and resources gathered at the end of the level.
@@ -28,10 +29,11 @@ Each player receives a different number of coins, based on his role and resource
 
 For example, at the end of a level, if a Warrior gathered `30 rage points`, `20 mana points and `20 action points`, he increases his number of coins by `46`.
 
-# You should also consider
+# Keep in mind!
 
-* The total coins are always rounded down
+* The structure must allow easy adding of new resources or player classes.
+* The total coins are always rounded down.
 * All the classes in the project can be modified to fit your implementation logic.
-* You can add any gem or library you want
+* You can add any gem or library you want.
 * All the specs must be passing. Add the additional specs you find necessary.
 * Please, don't fork this repository. Instead, create a local clone of the project.
