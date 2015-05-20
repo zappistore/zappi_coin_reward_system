@@ -30,7 +30,7 @@ For example, at the end of a level, if a **Warrior** gathered **30 rage points**
 
 # Keep in mind!
 
-* The structure must allow easy adding of new resources or player classes.
+* The structure must allow easy adding of new resources or roles.
 * The total coins are always rounded down.
 * All the classes in the project can be modified to fit your implementation logic.
 * You can add any gem or library you want.
