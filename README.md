@@ -6,7 +6,7 @@ ZappiStore is creating a RPG game and we are trying to implement the rewarding l
 
 # Instructions
 
-The class `CalculateReward#execute` is used at the end of the level.
+The method ```CalculateReward#execute``` is used to calculate the player reward at the end of the level.
 
 Each player receives a different number of coins, based on his role and resources gathered at the end of the level.
 
