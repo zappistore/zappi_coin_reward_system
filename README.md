@@ -5,12 +5,11 @@ ZappiStore is creating a RPG game and we are trying to implement the rewarding l
 
 
 # Instructions
-
-The method ```CalculateReward#execute``` is used to calculate the player reward at the end of the level.
+While going through a level, a player gathers multiple resources. At the end of the level, the player's reward is calculated using the method ```CalculateReward#execute```.
 
 Each player receives a different number of coins, based on his role and resources gathered at the end of the level.
 
-## The logic for transforming resources into coins is the following:
+### The logic for transforming resources into coins is the following:
 
 ### Warrior
 * 100% of Rage Points
@@ -27,7 +26,7 @@ Each player receives a different number of coins, based on his role and resource
 * 25% of Mana Points
 * 100% of Action Points
 
-For example, at the end of a level, if a Warrior gathered `30 rage points`, `20 mana points and `20 action points`, he increases his number of coins by `46`.
+For example, at the end of a level, if a **Warrior** gathered **30 rage points**, **20 mana points** and **20 action points**, he increases his number of coins by **46**. 
 
 # Keep in mind!
 
